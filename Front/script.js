@@ -72,7 +72,7 @@ const formData = {
 };
 
   // Enviar los datos del formulario al servidor mediante una solicitud POST
-  fetch('http://localhost:3000/contact', {
+  fetch('https://deploy-back-portfolio.onrender.com/contact', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
