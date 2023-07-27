@@ -356,6 +356,7 @@ span {
   flex-wrap: wrap;
   gap: 5rem;
   justify-content: center;
+  
 }
 
 .skills-column .title {
@@ -367,6 +368,13 @@ span {
 .skills-column .skills-box {
   position: relative;
 }
+.skills-content{
+  max-height: 650px;
+  overflow-y: auto;
+ min-width: 200px;
+
+}
+
 .skills-box .skills-content {
   position: relative;
   border: 0.2rem solid var(--main-color);
@@ -374,12 +382,12 @@ span {
   padding: 1.9rem 1.5rem;
   max-width: 30vw;
   z-index: 1;
-  overflow: hidden;
+
 }
 .skills-content {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+
 }
 .skills-content h3 {
   display: inline-block;
@@ -389,6 +397,8 @@ span {
   background-color: var(--main-color);
   color: white;
   border-radius: 5px;
+  justify-content: center;
+  
 }
 .skills-content h3:hover {
   opacity: 0.5;
